@@ -1,0 +1,179 @@
+{ 
+    "line": {
+        "type": "flex",
+        "altText": "NewMSG",
+        "contents":
+        {
+            "type": "carousel",
+            "contents": [
+                {
+                "type": "bubble",
+                "direction": "ltr",
+                "hero": {
+                    "type": "image",
+                    "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
+                    "size": "full",
+                    "aspectRatio": "1.51:1",
+                    "aspectMode": "cover"
+                    },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
+                            "weight": "bold",
+                            "size": "lg",
+                            "align": "start",
+                            "wrap": true,
+                            "contents": []
+                        },
+                        {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "xs",
+                        "contents": [
+                                {
+                                "type": "text",
+                                "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
+                                "size": "sm",
+                                "color": "#666666",
+                                "wrap": true,
+                                "contents": []
+                                }
+                            ]
+                         }
+                    ]
+                },
+                 "footer": {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                        {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "จองทันที",
+                            "uri": "https://linecorp.com"
+                             },
+                        "color": "#FFFFFFFF"
+                        }
+                    ]
+                }
+            },
+            {
+                "type": "bubble",
+                "direction": "ltr",
+                "hero": {
+                    "type": "image",
+                    "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
+                    "size": "full",
+                    "aspectRatio": "1.51:1",
+                    "aspectMode": "cover"
+                    },
+                "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
+                            "weight": "bold",
+                            "size": "lg",
+                            "align": "start",
+                            "wrap": true,
+                            "contents": []
+                        },
+                        {
+                        "type": "box",
+                        "layout": "vertical",
+                        "spacing": "xs",
+                        "contents": [
+                                {
+                                "type": "text",
+                                "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
+                                "size": "sm",
+                                "color": "#666666",
+                                "wrap": true,
+                                "contents": []
+                                }
+                            ]
+                         }
+                    ]
+                },
+                 "footer": {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "contents": [
+                        {
+                        "type": "button",
+                        "action": {
+                            "type": "uri",
+                            "label": "จองทันที",
+                            "uri": "https://linecorp.com"
+                             },
+                        "color": "#FFFFFFFF"
+                        }
+                    ]
+                }
+            },
+                {
+                    "type": "bubble",
+                    "direction": "ltr",
+                    "hero": {
+                        "type": "image",
+                        "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
+                        "size": "full",
+                        "aspectRatio": "1.51:1",
+                        "aspectMode": "cover"
+                        },
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                            {
+                                "type": "text",
+                                "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
+                                "weight": "bold",
+                                "size": "lg",
+                                "align": "start",
+                                "wrap": true,
+                                "contents": []
+                            },
+                            {
+                            "type": "box",
+                            "layout": "vertical",
+                            "spacing": "xs",
+                            "contents": [
+                                    {
+                                    "type": "text",
+                                    "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
+                                    "size": "sm",
+                                    "color": "#666666",
+                                    "wrap": true,
+                                    "contents": []
+                                    }
+                                ]
+                             }
+                        ]
+                    },
+                     "footer": {
+                        "type": "box",
+                        "layout": "horizontal",
+                        "contents": [
+                            {
+                            "type": "button",
+                            "action": {
+                                "type": "uri",
+                                "label": "จองทันที",
+                                "uri": "https://linecorp.com"
+                                 },
+                            "color": "#FFFFFFFF"
+                            }
+                        ]
+                    }
+                }
+            ]}
+    }
+}
