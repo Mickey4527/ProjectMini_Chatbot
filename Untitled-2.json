@@ -1,0 +1,49 @@
+{
+  "type": "bubble",
+  "direction": "ltr",
+  "hero": {
+    "type": "image",
+    "url": "https://vos.line-scdn.net/bot-designer-template-images/bot-designer-icon.png",
+    "size": "full",
+    "aspectRatio": "1.51:1",
+    "aspectMode": "fit"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "จองคิว",
+        "weight": "bold",
+        "size": "xxl",
+        "align": "start",
+        "margin": "xs",
+        "contents": []
+      },
+      {
+        "type": "text",
+        "text": "คลิกจองคิวเพื่อลงทะเบียน",
+        "margin": "lg",
+        "wrap": true,
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "horizontal",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "จองคิว",
+          "uri": "https://linecorp.com",
+          "color": "#000000"
+        },
+        "color": "#FDAC7C"
+      }
+    ]
+  }
+}
