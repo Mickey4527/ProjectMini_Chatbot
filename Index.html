@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="styleme.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+	<div class="layout-login">
+		<section class="mix-main body">
+			<article class="is-center login">
+				
+				<div class="header">
+					<h2 class="fw-bolder gray">ลงทะเบียนสมาชิก</h2>
+					<p>กรอกข้อมูลต่อไปนี้</p>
+				</div>
+				
+				<form class="mix-form" method="post" action="../config/auth/login.php">   
+				
+				<div class="mb-3">
+					<label for="reg_username" class="form-label">รหัสประชาชน</label>
+					<input name="reg_username" type="text" class="form-control" autocomplete="off" id="reg_username" required>
+				</div>
+				
+				<div class="mb-3">
+					<label for="reg_name" class="form-label">ชื่อ (ไม่ต้องใส่คำนำหน้า)</label>
+					<input name="reg_name" type="text" class="form-control" autocomplete="off" id="reg_name" required>
+				</div>
+
+				<div class="mb-3">
+					<label for="reg_lastname" class="form-label">นามสกุล</label>
+					<input name="reg_lastname" type="text" class="form-control" autocomplete="off" id="reg_lastname" required>
+				</div>
+
+				<div class="mb-3">
+					<label for="reg_pass" class="form-label">วันเดือนปีเกิด</label>
+					<input name="reg_pass" type="date" class="form-control" id="reg_pass" required>
+				</div>
+
+				<div class="mb-3">
+					<label for="reg_pass-c" class="form-label">เบอร์โทรศัพท์</label>
+					<input name="reg_pass-c" type="password" class="form-control" id="reg_pass-c" required>
+				</div>
+  
+					<button name="reg_submit" type="submit" class="mix-button full smb-2">ลงทะเบียน</button>
+					<input type="hidden" name="MM_insert" value="form1" />
+
+				</form>
+
+			</article>
+		</section>
+	</div>
+		   
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
