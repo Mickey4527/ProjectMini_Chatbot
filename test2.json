@@ -1,179 +1,126 @@
-{ 
+{
     "line": {
-        "type": "flex",
-        "altText": "NewMSG",
-        "contents":
-        {
-            "type": "carousel",
-            "contents": [
+      "altText": "หัวข้อความช่วยเหลือ",
+      "contents": {
+        "contents": [
+          {
+            "direction": "ltr",
+            "footer": {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
                 {
-                "type": "bubble",
-                "direction": "ltr",
-                "hero": {
-                    "type": "image",
-                    "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
-                    "size": "full",
-                    "aspectRatio": "1.51:1",
-                    "aspectMode": "cover"
-                    },
-                "body": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
-                            "weight": "bold",
-                            "size": "lg",
-                            "align": "start",
-                            "wrap": true,
-                            "contents": []
-                        },
-                        {
-                        "type": "box",
-                        "layout": "vertical",
-                        "spacing": "xs",
-                        "contents": [
-                                {
-                                "type": "text",
-                                "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
-                                "size": "sm",
-                                "color": "#666666",
-                                "wrap": true,
-                                "contents": []
-                                }
-                            ]
-                         }
-                    ]
-                },
-                 "footer": {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                        {
-                        "type": "button",
-                        "action": {
-                            "type": "uri",
-                            "label": "จองทันที",
-                            "uri": "https://linecorp.com"
-                             },
-                        "color": "#FFFFFFFF"
-                        }
-                    ]
+                  "color": "#193C40",
+                  "action": {
+                    "text": "A",
+                    "label": "เนื้อสไลด์",
+                    "type": "message"
+                  },
+                  "type": "button"
                 }
+              ]
             },
-            {
-                "type": "bubble",
-                "direction": "ltr",
-                "hero": {
-                    "type": "image",
-                    "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
-                    "size": "full",
-                    "aspectRatio": "1.51:1",
-                    "aspectMode": "cover"
-                    },
-                "body": {
-                    "type": "box",
-                    "layout": "vertical",
-                    "contents": [
-                        {
-                            "type": "text",
-                            "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
-                            "weight": "bold",
-                            "size": "lg",
-                            "align": "start",
-                            "wrap": true,
-                            "contents": []
-                        },
-                        {
-                        "type": "box",
-                        "layout": "vertical",
-                        "spacing": "xs",
-                        "contents": [
-                                {
-                                "type": "text",
-                                "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
-                                "size": "sm",
-                                "color": "#666666",
-                                "wrap": true,
-                                "contents": []
-                                }
-                            ]
-                         }
-                    ]
-                },
-                 "footer": {
-                    "type": "box",
-                    "layout": "horizontal",
-                    "contents": [
-                        {
-                        "type": "button",
-                        "action": {
-                            "type": "uri",
-                            "label": "จองทันที",
-                            "uri": "https://linecorp.com"
-                             },
-                        "color": "#FFFFFFFF"
-                        }
-                    ]
-                }
+            "hero": {
+              "type": "image",
+              "aspectMode": "cover",
+              "aspectRatio": "1:1",
+              "url": "https://raw.githubusercontent.com/Mickey4527/ProjectMini_Chatbot/master/srcs/img/SUKI%20SUKI%20SHABU%20(20).png",
+              "size": "full"
             },
+            "type": "bubble"
+          },
+          {
+            "direction": "ltr",
+            "hero": {
+              "aspectRatio": "1:1",
+              "size": "full",
+              "url": "https://raw.githubusercontent.com/Mickey4527/ProjectMini_Chatbot/master/srcs/img/SUKI%20SUKI%20SHABU%20(20).png",
+              "type": "image",
+              "aspectMode": "cover"
+            },
+            "type": "bubble",
+            "footer": {
+              "contents": [
                 {
-                    "type": "bubble",
-                    "direction": "ltr",
-                    "hero": {
-                        "type": "image",
-                        "url": "https://stickershop.line-scdn.net/.../main_animation@2x.png",
-                        "size": "full",
-                        "aspectRatio": "1.51:1",
-                        "aspectMode": "cover"
-                        },
-                    "body": {
-                        "type": "box",
-                        "layout": "vertical",
-                        "contents": [
-                            {
-                                "type": "text",
-                                "text": "สำรองที่นั่งสำหรับรับประทานอาหาร",
-                                "weight": "bold",
-                                "size": "lg",
-                                "align": "start",
-                                "wrap": true,
-                                "contents": []
-                            },
-                            {
-                            "type": "box",
-                            "layout": "vertical",
-                            "spacing": "xs",
-                            "contents": [
-                                    {
-                                    "type": "text",
-                                    "text": "loremloremloremloremloremloremloremloremloremloremloremlorem",
-                                    "size": "sm",
-                                    "color": "#666666",
-                                    "wrap": true,
-                                    "contents": []
-                                    }
-                                ]
-                             }
-                        ]
-                    },
-                     "footer": {
-                        "type": "box",
-                        "layout": "horizontal",
-                        "contents": [
-                            {
-                            "type": "button",
-                            "action": {
-                                "type": "uri",
-                                "label": "จองทันที",
-                                "uri": "https://linecorp.com"
-                                 },
-                            "color": "#FFFFFFFF"
-                            }
-                        ]
-                    }
+                  "type": "button",
+                  "color": "#193C40",
+                  "action": {
+                    "type": "message",
+                    "label": "เนื้อสไลด์",
+                    "text": "A"
+                  }
                 }
-            ]}
+              ],
+              "type": "box",
+              "layout": "horizontal"
+            }
+          },
+          {
+            "footer": {
+              "contents": [
+                {
+                  "color": "#193C40",
+                  "action": {
+                    "text": "A",
+                    "label": "เนื้อสไลด์",
+                    "type": "message"
+                  },
+                  "type": "button"
+                }
+              ],
+              "type": "box",
+              "layout": "horizontal"
+            },
+            "type": "bubble",
+            "hero": {
+              "aspectMode": "cover",
+              "aspectRatio": "1:1",
+              "size": "full",
+              "url": "https://raw.githubusercontent.com/Mickey4527/ProjectMini_Chatbot/master/srcs/img/SUKI%20SUKI%20SHABU%20(20).png",
+              "type": "image"
+            },
+            "direction": "ltr"
+          },
+          {
+            "hero": {
+              "size": "full",
+              "aspectMode": "cover",
+              "url": "https://raw.githubusercontent.com/Mickey4527/ProjectMini_Chatbot/master/srcs/img/SUKI%20SUKI%20SHABU%20(20).png",
+              "type": "image",
+              "aspectRatio": "1:1"
+            },
+            "footer": {
+              "layout": "horizontal",
+              "type": "box",
+              "contents": [
+                {
+                  "type": "button",
+                  "color": "#193C40",
+                  "action": {
+                    "type": "message",
+                    "label": "เนื้อสไลด์",
+                    "text": "A"
+                  }
+                }
+              ]
+            },
+            "direction": "ltr",
+            "type": "bubble"
+          }
+        ]
+      },
+      "quickReply": {
+        "items": [
+          {
+            "type": "action",
+            "action": {
+              "label": "กลับเมนูหลัก",
+              "text": "เมนูหลัก",
+              "type": "message"
+            }
+          }
+        ]
+      },
+      "type": "flex"
     }
-}
+  }
